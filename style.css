@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #6A669D;
+  overflow-x: hidden;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  padding: 10px 20px;
+  height: 80px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.navbar .logo {
+  color: #fff;
+  font-size: 32px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  margin-top: 15px;
+}
+
+.navbar ul li {
+  margin-left: 20px;
+}
+
+.navbar ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.logo-bene {
+  position: relative;
+  top: -5px;
+  right: 85%;
+  width: 300px;
+}
+.logo {
+  position: relative;
+  left: 25%;
+}
+
+.section-cards {
+  display: grid; 
+  grid-template-columns: 1fr 1fr 1fr;
+  position: relative;
+  top: 150px;
+  left: 53px;
+}
+.div-card {
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.5s ease;
+  cursor: pointer;
+}
+.div-card:hover {
+  display: flex;
+  flex-direction: column;
+  transform: scale(0.9);
+}
+.button-card {
+  position: relative;
+  width: 300px;
+  bottom: 17px;
+  height: 20px;
+  border-radius: 0 0 10px 10px;
+  border: none;
+  background-color: #B6A28E;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #2A3663;
+  /* transition: transform 0.5s ease; */
+}
+.button-card-nd {
+  position: relative;
+  width: 300px;
+  bottom: -80px;
+  height: 20px;
+  border-radius: 0 0 10px 10px;
+  border: none;
+  background-color: #B6A28E;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #2A3663;
+  left: 250px;
+  /* transition: transform 0.5s ease; */
+}
+.img-card {
+  width: 300px;
+  border-radius: 20px;
+  -webkit-box-shadow: 10px 10px 22px 0px rgba(0,0,0,0.53);
+  -moz-box-shadow: 10px 10px 22px 0px rgba(0,0,0,0.53);
+  box-shadow: 10px 10px 22px 0px rgba(0,0,0,0.53);
+  /* transition: transform 0.5s ease; */
+}
+/* .img-card:hover {
+  transform: scale(0.9);
+} */
+
+.img-4-card {
+  position: relative;
+  top: 100px;
+  left: 250px;
+}
+.img-5-card {
+  position: relative;
+  top: 100px;
+  left: 250px;
+}
+
+.pie-div {
+  background-color: #55AD9B;
+  height: 100px;
+  margin-top: 314px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title-pie {
+  color: #F1F8E8;
+  padding-top: 40px;
+  margin-bottom: 0px;
+}
+.logo-red {
+  width: 50px;
+  margin-right: 40px;
+}
