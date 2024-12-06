@@ -6,7 +6,7 @@
 }
 
 body {
-  background: #6A669D;
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(106,50,115,1) 35%, rgba(170,0,255,1) 100%);
   overflow-x: hidden;
 }
 
